@@ -12,11 +12,22 @@ body {
 
 /*  || image part of sign up form */
 .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url("/images/land-scape.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     flex: 1;
+}
+
+.logo {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -30%;
 }
 
 /*  || right side part of sign up form */

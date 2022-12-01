@@ -7,10 +7,12 @@ body {
     margin: 0;
 }
 
+/*  || image part of sign up form */
 .image-container {
     flex: 1;
 }
 
+/*  || right side part of sign up form */
 .form-container {
     display: flex;
     flex-flow: column wrap;
@@ -21,6 +23,7 @@ body {
     flex: 2;
 }
 
+/*  || caption */
 .caption {
     display: flex;
     flex-wrap: wrap;
@@ -28,4 +31,39 @@ body {
     align-items: center;
     font-weight: 700;
     font-size: 1.3em;
+}
+
+/*  ||  form elements */
+.form-elements {
+    background-color: whitesmoke;
+    padding: 20px;
+    box-shadow: 0 2px 2px 2px grey;
+}
+
+.form-header {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.form-elements form {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 100px;
+}
+
+.form-label {
+    display: block;
+    letter-spacing: 2px;
+    font-size: 0.7em;
+}
+
+.form-item {
+    margin-top: 13px;
+    margin-right: 60px;
+}
+
+.form-input {
+    height: 20px;
+    width: 260px;
 }

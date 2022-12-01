@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,43 +8,49 @@
     <title>Sign Up</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <!--side image-->
     <div class="image-container">
-        <h1></h1>
     </div>
     <!--form container-->
     <div class="form-container">
         <div class="caption">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.Sign up now to get started.</p>
-            <p>You know you want to.</p>
+            <p>This is not a real online service! You know you need something like this in your life to help you realize
+                your deepest dreams.Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
         </div>
-        <div class="form">
-            <form>
-                <fieldset>
-                    <legend>Let's do this!</legend>
+        <div class="form-elements">
+            <div class="form-header">Let's do this!</div>
+            <form action="#" method="POST">
+                <div>
+                    <label class="form-label" for="fisrt_name">FIRST NAME</label>
+                    <input class="form-input" type="text" id="first_name" name="first_name">
+                </div>
+                <div>
+                    <label class="form-label" for="last_name">LAST NAME</label>
+                    <input class="form-input" type="text" id="last_name" name="last_name">
+                </div>
+                <div>
+                    <label class="form-label" for="user_email">EMAIL</label>
+                    <input class="form-input" type="email" id="user_email" name="user_email">
+                </div>
+                <div>
+                    <label class="form-label" for="user_number">PHONE NUMBER</label>
+                    <input class="form-input" type="tel" id="user_number" name="user_number">
 
-                    <label for="fisrt_name">FIRST NAME</label>
-                    <input type="text" id="first_name" name="first_name">
-
-                    <label for="last_name">LAST NAME</label>
-                    <input type="text" id="last_name" name="last_name">
-
-                    <label for="user_email">EMAIL</label>
-                    <input type="email" id="user_email" name="user_email">
-
-                    <label for="user_number">PHONE NUMBER</label>
-                    <input type="tel" id="user_number" name="user_number">
-
-                    <label for="user_password">PASSWORD</label>
-                    <input type="password" id="user_password" name="user_password">
-
-                    <label for="confirm_password">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirm_password" name="confirm_password">
-                </fieldset>
+                </div>
+                <div>
+                    <label class="form-label" for="user_password">PASSWORD</label>
+                    <input class="form-input" type="password" id="user_password" name="user_password">
+                </div>
+                <div>
+                    <label class="form-label" for="confirm_password">CONFIRM PASSWORD</label>
+                    <input class="form-input" type="password" id="confirm_password" name="confirm_password">
+                </div>
             </form>
         </div>
-        <div class="create-account">
+        <div class="create-account-button">
             <button type="submit">Create Account</button>
         </div>
         <div class="have-account">
@@ -51,4 +58,5 @@
         </div>
     </div>
 </body>
+
 </html>

@@ -7,7 +7,6 @@
 
 body {
     display: flex;
-    margin: 0;
 }
 
 /*  || image part of sign up form */
@@ -46,7 +45,7 @@ body {
     flex-wrap: wrap;
     justify-content: start;
     align-items: center;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1em;
     margin-bottom: 30px;
     padding-right: 120px;
@@ -56,7 +55,7 @@ body {
 
 /*  ||  form elements */
 .form-elements {
-    background-color: FAF9F6;
+    background-color: #FAF9F6;
     padding: 20px;
     box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.2);
     margin-bottom: 30px;
@@ -71,7 +70,7 @@ body {
 .form-elements form {
     display: flex;
     flex-wrap: wrap;
-    padding-right:100px ;
+    padding-right: 100px;
 }
 
 .form-label {

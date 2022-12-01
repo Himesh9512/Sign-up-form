@@ -1,7 +1,10 @@
 * {
+    font-family: BabelStoneModernRegular;
+    --margin-from-image: 30px;
     padding: 0;
     margin: 0;
 }
+
 body {
     display: flex;
     margin: 0;
@@ -9,16 +12,20 @@ body {
 
 /*  || image part of sign up form */
 .image-container {
+    background-image: url("/images/land-scape.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
     flex: 1;
 }
 
 /*  || right side part of sign up form */
 .form-container {
+    background-color: #FAF9F6;
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     height: 100vh;
-    padding: 30px;
     flex: 2;
 }
 
@@ -29,14 +36,18 @@ body {
     justify-content: start;
     align-items: center;
     font-weight: 700;
-    font-size: 1.3em;
+    font-size: 1em;
+    margin-bottom: 30px;
+    gap: 20px;
+    margin-left: var(--margin-from-image);
 }
 
 /*  ||  form elements */
 .form-elements {
-    background-color: whitesmoke;
+    background-color: FAF9F6;
     padding: 20px;
-    box-shadow: 4px 3px 7px 2px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
 }
 
 .form-header {
@@ -48,7 +59,7 @@ body {
 .form-elements form {
     display: flex;
     flex-wrap: wrap;
-    padding-right: 100px;
+    padding-right:100px ;
 }
 
 .form-label {
@@ -63,14 +74,48 @@ body {
 }
 
 .form-input {
+    background-color: inherit;
+    margin-top: 3px;
+    border-color: black;
+    border-radius: 4px;
     height: 20px;
     width: 260px;
 }
 
+.form-input:focus:valid {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border-color: #1f3938;
+}
+
+.form-input:focus:invalid {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border-color: #ff2400;
+}
 /*  || create account button */
+
+.create-account {
+    margin-left: var(--margin-from-image);
+}
 
 .create-account-button {
     height: 40px;
     width: 160px;
-    border-radius: 6px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    background-color: #1f3938;
+    color: white;
+    cursor: pointer;
+}
+
+/*  || log in redirect link */
+
+.have-account {
+    margin-left: var(--margin-from-image);
+}
+
+a {
+    color: #e3ccb8;
+    text-decoration: none;
 }

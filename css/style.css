@@ -101,6 +101,12 @@ body {
     border-color: #1f3938;
 }
 
+.form-input:focus:invalid {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border: 1px solid red;
+}
+
 /*  || create account button */
 
 .create-account {
@@ -126,4 +132,10 @@ body {
 a {
     color: #e3ccb8;
     text-decoration: none;
+}
+
+.error {
+    border: 1px solid red;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    outline: none;
 }

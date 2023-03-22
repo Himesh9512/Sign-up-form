@@ -1,6 +1,6 @@
 # Sign-up-form
 
-[LIVE PREVIEW](https://himesh9512.github.io/sign-up-form)
+[LIVE PREVIEW](https://himesh9512.github.io/Sign-up-form)
 
 ## Description
 

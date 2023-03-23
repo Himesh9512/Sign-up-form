@@ -69,7 +69,7 @@ body {
 
 .form-elements form {
 	display: grid;
-	grid-template-columns: repeat(2, 330px);
+	grid-template-columns: 330px 330px;
 }
 
 .form-label {
